@@ -1,0 +1,9 @@
+<div>
+  <h1>Shoe Configuration</h1>
+
+  <div style="display: flex">
+    <app-select-color (selectedColor)="selectedColor = $event"></app-select-color>
+    <app-select-size (selectedSize)="selectedSize = $event"></app-select-size>
+  </div>
+  <app-your-configuration [selectedSize]="selectedSize" [selectedColor]="selectedColor"></app-your-configuration>
+</div>

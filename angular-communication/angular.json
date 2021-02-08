@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "angular-communication"
+  "defaultProject": "angular-communication",
+  "cli": {
+    "analytics": false
+  }
 }
